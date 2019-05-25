@@ -4,7 +4,9 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.sql.Timestamp;
+
+
+
 
 public class Item {
 	
@@ -17,7 +19,7 @@ public class Item {
 		Statement st = null;
 		ResultSet rs = null;
 		
-		String sql = "select * from items";
+		String sql = "select * from item";
 		
 		try {
 			con = DBConnection.createConnection();
